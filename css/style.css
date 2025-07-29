@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sunflower:wght@300&display=swap');
+.card-img-top{
+    transition: transform .7s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1,h2,h3,h4,.logo-font{
+    font-family: "Sunflower", sans-serif;
+}
+
+#card-banner{
+    background-image:url(../images/card-banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
