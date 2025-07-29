@@ -7,12 +7,12 @@
     cursor: pointer;
 }
 
-body{
-    font-family: "Noto Sans", sans-serif;
+body,.noto-font{
+    font-family: "Sunflower", sans-serif;
 }
 
-h1,h2,h3,h4,.logo-font{
-    font-family: "Sunflower", sans-serif;
+h1,h2,h3,h4,h5,a,.logo-font{
+    font-family: "Noto Sans", sans-serif;
 }
 
 #card-banner{
@@ -21,3 +21,8 @@ h1,h2,h3,h4,.logo-font{
     background-attachment: fixed;
 }
 
+.nav-link.active,
+.nav-link:hover{
+    color: darkblue !important;
+    font-weight: bold;
+}
