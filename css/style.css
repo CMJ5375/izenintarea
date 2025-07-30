@@ -8,11 +8,12 @@
 }
 
 body,.noto-font{
-    font-family: "Sunflower", sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 
 h1,h2,h3,h4,h5,a,.logo-font{
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Sunflower", sans-serif;
+    font-weight: 700;
 }
 
 #card-banner{
